@@ -66,6 +66,24 @@ github-epub-productizer/
 
 这个 skill 现在已经不依赖外部 skill 目录里的脚本路径来工作，核心依赖都已经复制到本目录。
 
+## 开源署名
+
+这个仓库包含了对第三方开源脚本的整理和改造，不是从零独立重写的全部实现。
+
+- EPUB 相关脚本参考并改造自 `joeseesun/qiaomu-epub-book-generator`
+- 原始仓库：`https://github.com/joeseesun/qiaomu-epub-book-generator`
+- 上游许可证：`MIT`
+
+更详细的第三方代码说明见：
+
+- `THIRD_PARTY_NOTICES.md`
+
+如果你要继续分发、二次修改或公开发布这个 skill，建议保留：
+
+- 本仓库的 `LICENSE`
+- 本仓库的 `THIRD_PARTY_NOTICES.md`
+- 对上游仓库的来源说明
+
 ## 使用前准备
 
 如果你只需要生成 `.epub`，不需要额外准备生图 API key，EPUB 功能可以独立工作。
